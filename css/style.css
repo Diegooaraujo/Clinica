@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "poppins",sans-serif;
+    
+}
+
+/*header*/
+.headerNav{
+    
+    padding: 0 10px;
+  
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+
+    
+}
+#logoNav{
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+.navBar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    align-items: center;
+    margin: 0 15rem;
+   
+}
+.navBar ul li a{
+   font-size: 15px;
+   color: #264267;
+   text-decoration: none;
+}
+/*fim header*/
+
+/*section principal*/
+.principal{
+    width: 1200px;
+    height: 610px;
+    background-color: #264267;
+    margin: 0 auto;
+    display: flex;
+}
+.principalAgendar{
+    background-color:#5C9CB7;
+    width: 50%;
+    padding: 100px;
+
+}
+.principalAgendar h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    ;
+
+}
+.principalAgendar p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.principalAgendar button{
+    background-color: #264267;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 2px 2px 6px black;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.principalLogo{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.principalLogo img{
+    width: 390px;
+    
+}
+
+/*fim section principal*/
+/*section sobre*/
+
+.sobre{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+}
+.sobreDesc{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.descImage{
+    width: 525px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 20%;
+}
+
+.sobreImages img{
+    width: 885px;
+}
+.sobreDesc h1{
+    color: #264267;
+    font-weight: 300;
+    font-size:40px ;
+}
+.desc{
+    
+    width: 530px;
+    height: 530px;
+    
+   
+}
+.desc h1{
+    
+    margin: 40px 50px 30px 50px;
+}
+.desc p {
+    margin:10px 50px;
+}
+.sobreImages{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.images img{
+    width: 335px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px black;
+}
+.images{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    
+}
+.imgCadeira{
+    position:absolute;
+    bottom: 0;
+    z-index: 4;
+}
+.imgConsultorio{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*fim section sobre*/
+
+/*section serviços*/
+
+.servicos{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    background-image: url("../images/dentista.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+.servicoTitle{
+   
+    margin: 20px 0px 40px 0px;
+}
+.servicoTitle h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.tipoServicos{
+    display: flex;
+}
+.servico{
+    background-color: #5C9CB7;
+    color: #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 320px;
+    margin: 20px;
+    padding: 10px;
+}
+.servico img{
+    width: 60px;
+    margin: 20px 0px 10px 0px;
+}
+.servico h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.servico p{
+    font: 14px;
+    font-weight: 200;
+}
+/*fim section serviços*/
+
+/*section Contato*/
+.contato{
+    width: 1200px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+.contatoTop{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+.contatoTop h1{
+    color: #264267;
+    font-size:48px ;
+    font-weight: 300;
+    text-align: center;
+}
+.conteinerMap{
+    display: flex;
+    flex-direction:column ;
+    
+    height: 700px;
+    width: 900px;
+    position: absolute;
+    
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.contatoDesc{
+    background-color: #5C9CB7;
+    height: 700px;
+}
+.contatos{
+    height: 300px;
+}
+.cont{
+    display: flex;
+    margin: 0px 0px 20px 0px;
+}
+.cont img{
+    width: 30px;
+    margin: 0px 10px 0px 0px;
+}
+.cont p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/*fim section Contato*/
+/*section form*/
+.agendar{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.agendarTitle{
+    text-align: center;
+}
+.agendarTitle h1{
+    color: #264267;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 30px;
+}
+.conteinerForm{
+    
+    display: flex;
+    width: 100%;
+    margin-top: 7px;
+
+}
+.formImg{
+    width: 50%;
+   
+    text-align: center;
+}
+.formImg img{
+    width: 450px;
+}
+.formulario{
+    width: 50%;
+}
+
+#formContato{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 545px;
+    height: 495px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+}
+#formContato h3{
+    color: #5C9CB7;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+#formContato input{
+    background-color: #5C9CB7;
+    padding: 20px 20px;
+    margin: 12px 0px;
+    border: none;
+    border-radius: 30px;
+    
+
+}
+#formContato textarea{
+    background-color: #5C9CB7;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    resize: none;    
+    padding: 10px 20px;
+    height: 130px;
+}
+#formContato textarea::placeholder{
+    color: #fff;
+}
+#formContato input::placeholder{
+    color: #fff;
+    
+    
+}
+#formContato button{
+    padding: 15px 30px;
+    width: 150px;
+    background-color: #5C9CB7;
+    border-radius: 30px;
+    border: none;
+    margin:20px auto 0 auto;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.384);
+    cursor: pointer;
+}
+.rodape{
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+    padding: 50px 100px;
+    
+}
+
+.abstrato{
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.abstrato.um{
+    z-index: 3;
+}
+.abstrato.dois {
+    top:7px;
+    z-index: 1;
+}
+.abstratoBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+}
+.abstratoBottom.quatro{
+    bottom: 17px;
+}
+.abstrato.tres{
+    bottom: 0px;
+}
+.footerConteiner{
+    display: flex;
+    
+}
+
+.descClinica{
+    width: 460px;
+    
+}
+
+
+.descClinica img{
+    width:200px;
+    
+    
+}
+.descClinica p{
+    padding: 0px 30px;
+    color: #5C9CB7;
+    font-size:15px;
+
+}
+.descClinica span{
+    padding: 0px 30px;
+    font-size: 15px;
+    color: #264267;
+    
+}
+
+.linksUteis{
+    margin:50px  50px 0px 50px;
+}
+.linkTitle{
+    border-bottom: 2px solid #5C9CB7;
+    width: 120px;
+    text-align: center;
+    
+}
+.linkTitle h4{
+    color: #5C9CB7;
+    font-weight: 500;
+}
+.linksUteis ul{
+    padding: 10px 20px;
+    
+}
+.linksUteis li{
+    margin: 5px;
+    color: #5C9CB7;
+    font-size: 15px;
+}
+
+.footerContato{
+    margin:50px  50px 0px 50px;
+}
+
+.contatoTitle{
+    border-bottom: 2px solid #5C9CB7;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contatoTitle h4{
+    color: #5C9CB7;
+    font-weight: 500;
+    
+}
+.iconContato{
+    display: flex;
+    padding: 10px 0px;
+}
+.iconContato img{
+    width: 25px;
+    margin-right: 10px;
+}
+.iconContato p{
+    color:#5C9CB7;
+    font-size: 15px;
+}
+
+
+/*fim section form*/
